@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savor - Premium Dining</title>
+    <meta name="description" content="Experience culinary excellence with our curated menu of modern flavors.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Savor.</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="index.html#menu">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content reveal">
+            <span class="badge">Culinary Excellence</span>
+            <h1>Taste the <br>Extraordinary</h1>
+            <p>A modern approach to classic flavors, crafted with passion and locally sourced ingredients.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Book a Table</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper reveal">
+            <img src="hero_image.png" alt="Gourmet food presentation" class="hero-image" id="hero-img">
+        </div>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <div class="section-header reveal">
+            <h2>Our Menu</h2>
+            <p>Discover our thoughtfully curated seasonal offerings.</p>
+        </div>
+
+        <div class="menu-filters reveal">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="starters">Starters</button>
+            <button class="filter-btn" data-category="mains">Mains</button>
+            <button class="filter-btn" data-category="desserts">Desserts</button>
+            <button class="filter-btn" data-category="drinks">Drinks</button>
+        </div>
+
+        <div class="menu-grid" id="menu-container">
+            <!-- Menu items will be injected here by JS -->
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content reveal">
+            <div class="footer-brand">
+                <h3>Savor.</h3>
+                <p>Elevating the dining experience.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Visit Us</h4>
+                <p>123 Culinary Lane<br>Gastronomy District, GD 10001</p>
+                <p>hello@savor.com<br>+1 (555) 123-4567</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Hours</h4>
+                <p>Tue-Sun: 5:00 PM - 10:30 PM<br>Mon: Closed</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Savor Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
